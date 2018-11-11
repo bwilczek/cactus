@@ -4,5 +4,5 @@ require 'json'
 
 get '/session' do
   content_type :json
-  { token: '123321123321' }.to_json
+  { token: SecureRandom.hex }.to_json
 end

@@ -14,7 +14,6 @@ export function fetchToken() {
   }
 }
 
-
 export function updateToken(data) {
   return {
     type: 'AUTH_UPDATE_TOKEN',
